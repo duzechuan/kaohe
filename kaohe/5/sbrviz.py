@@ -11,9 +11,6 @@ goal_pattern = re.compile(
 initialpose_pattern = re.compile(
     r"Initial pose: x=([0-9.-]+), y=([0-9.-]+), orientation: z=([0-9.-]+)")
 
-# 定义正则表达式来匹配 /initialpose 信息
-
-
 # 启动 rviz 并捕获其输出
 rviz_config_path = 'sbrviz.rviz'
 with open('sbrviz.txt', 'w') as rviz_output_file, open('sbrviz.csv', 'a', newline='') as csvfile:

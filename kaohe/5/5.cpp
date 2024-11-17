@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-class Vector {
+class Vector {// 定义向量类
 private:
     double x;
     double y;
